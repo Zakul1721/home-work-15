@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vite App</title>
+</head>
+
+<body class="body">
+
+  <div class="page-container">
+    <header class="header">
+      <a class="logo" href="#">ZaKul</a>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="#">Home</a></li>
+          <li><a class="navbar-link" href="#">About</a></li>
+          <li><a class="navbar-link" href="#">Contact</a></li>
+          <li><a class="navbar-link" href="#">Blog</a></li>
+        </ul>
+      </nav>
+
+      <button class="trigger-button">
+        <svg class="trigger-button-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+
+    </header>
+
+    <nav class="breadcrumb">
+      <a class="breadcrumb-link" href="#">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+        </svg>
+
+      </a>
+      <span class="breadcrumb-separator">
+        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+        </svg>
+      </span>
+      <a class="breadcrumb-link" href="#">Articles</a>
+      <span class="breadcrumb-separator">
+        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+        </svg>
+      </span>
+
+      <a class="breadcrumb-link" href="#">ALL</a>
+    </nav>
+
+    <main class="main">
+      <section class="hero">
+        <article class="hero-article md:w-2/3 group">
+          <a class="hero-link group" href="#">
+            <h2 class="hero-title">Lorem ipsum dolor sit amet.</h2>
+          </a>
+          <img class="hero-image" src="/hero-1.jpg" alt="hero-img">
+          <div class="hero-overlay-primary"></div>
+        </article>
+        <article class="hero-article md:w-1/3 group">
+          <a class="hero-link group" href="#">
+            <h2 class="hero-title">Lorem ipsum dolor sit amet.</h2>
+          </a>
+          <img class="hero-image" src="/hero-2.jpg" alt="hero-img">
+          <div class="hero-overlay-secondary"></div>
+        </article>
+      </section>
+    </main>
+
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-text">© 2023 ZaKul. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
